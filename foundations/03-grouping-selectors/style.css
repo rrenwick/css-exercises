@@ -1,5 +1,6 @@
 
-button {
+.clickme, .noclickme {
+    /* :is(.clickme, .noclickme) { */      /* this also groups, but experimental */
     font-family: 'Times New Roman', Helvetica, sans-serif;
     font-size: 28px;
 }
